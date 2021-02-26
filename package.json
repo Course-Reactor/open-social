@@ -1,0 +1,13 @@
+{
+  "name": "open-social",
+  "private": true,
+  "scripts": {
+    "monorepo:init": "lerna bootstrap",
+    "monorepo:start": "npm run server:start && npm run client:start",
+    "server:start": "cd ./packages/server && npm run start",
+    "client:start": "cd ./packages/client && npm run start"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

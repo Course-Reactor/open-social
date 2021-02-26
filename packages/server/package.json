@@ -1,0 +1,31 @@
+{
+  "name": "@open-social/server",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Course-Reactor/open-social.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Course-Reactor/open-social/issues"
+  },
+  "homepage": "https://github.com/Course-Reactor/open-social#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.12.0",
+    "fastify-mongodb": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.6.8",
+    "@types/node": "^14.14.28",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
